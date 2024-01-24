@@ -1,0 +1,16 @@
+#shoutout an ChatGPT für diesen tollen Beitrag
+import random
+
+def coin_flip():
+    if random.choice([True, False]):
+        return "Heads"
+    else:
+        return "Tails"
+
+print("Welcome to the Coin Flip Game!")
+input("Press Enter to flip the coin...")
+
+result = coin_flip()
+print(f"The coin landed on: {result}")
+
+#tollerTrick
